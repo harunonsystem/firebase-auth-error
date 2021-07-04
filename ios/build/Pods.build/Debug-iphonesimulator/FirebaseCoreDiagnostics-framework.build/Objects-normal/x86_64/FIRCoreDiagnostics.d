@@ -1,0 +1,25 @@
+dependencies: \
+  /Users/harunon/Projects/app/ios/Pods/FirebaseCoreDiagnostics/Firebase/CoreDiagnostics/FIRCDLibrary/FIRCoreDiagnostics.m \
+  /Users/harunon/Projects/app/ios/build/Pods.build/Debug-iphonesimulator/FirebaseCoreDiagnostics-framework.build/module.modulemap \
+  /Users/harunon/Projects/app/ios/Pods/Headers/Public/GoogleDataTransport/GoogleDataTransport.h \
+  /Users/harunon/Projects/app/ios/Pods/Headers/Public/GoogleDataTransport/GDTCORClock.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.5.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.5.sdk/usr/include/mach-o/dyld.modulemap \
+  /Users/harunon/Projects/app/ios/Pods/Headers/Public/GoogleDataTransport/GDTCORConsoleLogger.h \
+  /Users/harunon/Projects/app/ios/Pods/Headers/Public/GoogleDataTransport/GDTCOREndpoints.h \
+  /Users/harunon/Projects/app/ios/Pods/Headers/Public/GoogleDataTransport/GDTCORTargets.h \
+  /Users/harunon/Projects/app/ios/Pods/Headers/Public/GoogleDataTransport/GDTCOREvent.h \
+  /Users/harunon/Projects/app/ios/Pods/Headers/Public/GoogleDataTransport/GDTCOREventDataObject.h \
+  /Users/harunon/Projects/app/ios/Pods/Headers/Public/GoogleDataTransport/GDTCOREventTransformer.h \
+  /Users/harunon/Projects/app/ios/Pods/Headers/Public/GoogleDataTransport/GDTCORTransport.h \
+  /Users/harunon/Projects/app/ios/Pods/Headers/Public/GoogleUtilities/GULAppEnvironmentUtil.h \
+  /Users/harunon/Projects/app/ios/Pods/Headers/Public/GoogleUtilities/GULHeartbeatDateStorage.h \
+  /Users/harunon/Projects/app/ios/Pods/Headers/Public/GoogleUtilities/GULHeartbeatDateStorable.h \
+  /Users/harunon/Projects/app/ios/Pods/Headers/Public/GoogleUtilities/GULLogger.h \
+  /Users/harunon/Projects/app/ios/Pods/Headers/Public/GoogleUtilities/GULLoggerLevel.h \
+  /Users/harunon/Projects/app/ios/Pods/FirebaseCoreDiagnostics/Interop/CoreDiagnostics/Public/FIRCoreDiagnosticsData.h \
+  /Users/harunon/Projects/app/ios/Pods/FirebaseCoreDiagnostics/Interop/CoreDiagnostics/Public/FIRCoreDiagnosticsInterop.h \
+  /Users/harunon/Projects/app/ios/Pods/Headers/Public/nanopb/pb.h \
+  /Users/harunon/Projects/app/ios/Pods/Headers/Public/nanopb/pb_decode.h \
+  /Users/harunon/Projects/app/ios/Pods/Headers/Public/nanopb/pb_encode.h \
+  /Users/harunon/Projects/app/ios/Pods/FirebaseCoreDiagnostics/Firebase/CoreDiagnostics/FIRCDLibrary/Protogen/nanopb/firebasecore.nanopb.h

@@ -1,0 +1,106 @@
+{
+  "buildCommand" : "prepareForIndexing",
+  "configuredTargets" : [
+    {
+      "guid" : "ea2d020a5dd5e20c6f6c817e04d3e03ad57b8bce60a0f11113f4cff532db68d3"
+    },
+    {
+      "guid" : "ea2d020a5dd5e20c6f6c817e04d3e03a1f1bf5397e3bf6b03ce2b5ab2078e9b4"
+    },
+    {
+      "guid" : "ea2d020a5dd5e20c6f6c817e04d3e03ab762d5de103fb6cfc7506aa6be1d4f33"
+    },
+    {
+      "guid" : "ea2d020a5dd5e20c6f6c817e04d3e03aa408a4c1f668e62161cdeba76f57d50c"
+    },
+    {
+      "guid" : "ea2d020a5dd5e20c6f6c817e04d3e03ad367f2c9826e0c44989d081ca3d0f4ca"
+    },
+    {
+      "guid" : "ea2d020a5dd5e20c6f6c817e04d3e03a566ec9a1d71c4629f4f85ecb735ce614"
+    },
+    {
+      "guid" : "ea2d020a5dd5e20c6f6c817e04d3e03a9da425bb6d6d5d8dbb95e4afffb82217"
+    },
+    {
+      "guid" : "ea2d020a5dd5e20c6f6c817e04d3e03add3a6a519ed4181bf31ea6bc1f18ebc5"
+    },
+    {
+      "guid" : "ea2d020a5dd5e20c6f6c817e04d3e03abbbb266cb4185458611c79148d1a9d13"
+    },
+    {
+      "guid" : "ea2d020a5dd5e20c6f6c817e04d3e03ad3c8dfff2c580c352f83d3850ad17775"
+    },
+    {
+      "guid" : "ea2d020a5dd5e20c6f6c817e04d3e03a718890dfdac589615663a02d43d9af3e"
+    },
+    {
+      "guid" : "ea2d020a5dd5e20c6f6c817e04d3e03a312b4bc59bbbe2c06c205bf4da6737f5"
+    },
+    {
+      "guid" : "ea2d020a5dd5e20c6f6c817e04d3e03af10882e1684b8a3dfdec597bc0a47af3"
+    },
+    {
+      "guid" : "ea2d020a5dd5e20c6f6c817e04d3e03a3788d8769c821650606514be955fca93"
+    },
+    {
+      "guid" : "ea2d020a5dd5e20c6f6c817e04d3e03a7f74324bfc5c78140e34d510e26e00c1"
+    },
+    {
+      "guid" : "ea2d020a5dd5e20c6f6c817e04d3e03a0062393f91a1d2d94e3e5ed3a5aa5da9"
+    },
+    {
+      "guid" : "df507f9434f7e6ba3d3f46e3f881625e88a783a885d8b0b3beb2e9f90bde3f49"
+    }
+  ],
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator14.5",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "",
+      "buildProductsPath" : "",
+      "derivedDataPath" : "/Users/harunon/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/harunon/Library/Developer/Xcode/DerivedData/Runner-bdspnsdspxzonnelksvcswiekxpr/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/harunon/Library/Developer/Xcode/DerivedData/Runner-bdspnsdspxzonnelksvcswiekxpr/Index/PrecompiledHeaders",
+      "pchPath" : ""
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ASSETCATALOG_FILTER_FOR_DEVICE_MODEL" : "iPod9,1",
+          "ASSETCATALOG_FILTER_FOR_DEVICE_OS_VERSION" : "14.5",
+          "BUILD_ACTIVE_RESOURCES_ONLY" : "YES",
+          "ENABLE_PREVIEWS" : "NO",
+          "TARGET_DEVICE_IDENTIFIER" : "6C6F6BB2-D197-418A-A38B-5B095E742B41",
+          "TARGET_DEVICE_MODEL" : "iPod9,1",
+          "TARGET_DEVICE_OS_VERSION" : "14.5",
+          "TARGET_DEVICE_PLATFORM_NAME" : "iphonesimulator"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : true,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

@@ -1,0 +1,75 @@
+Target dependency graph (17 targets)
+PromisesObjC-framework in Pods
+GoogleUtilities-framework in Pods, depends on:
+PromisesObjC-framework in Pods (explicit)
+nanopb-framework in Pods
+GoogleDataTransport-framework in Pods, depends on:
+GoogleUtilities-framework in Pods (explicit)
+PromisesObjC-framework in Pods (explicit)
+nanopb-framework in Pods (explicit)
+FirebaseCoreDiagnostics-framework in Pods, depends on:
+GoogleDataTransport-framework in Pods (explicit)
+GoogleUtilities-framework in Pods (explicit)
+nanopb-framework in Pods (explicit)
+FirebaseCore-framework in Pods, depends on:
+FirebaseCoreDiagnostics-framework in Pods (explicit)
+GoogleUtilities-framework in Pods (explicit)
+FirebaseInstallations-framework in Pods, depends on:
+FirebaseCore-framework in Pods (explicit)
+GoogleUtilities-framework in Pods (explicit)
+PromisesObjC-framework in Pods (explicit)
+GoogleAppMeasurement-framework in Pods, depends on:
+GoogleUtilities-framework in Pods (explicit)
+nanopb-framework in Pods (explicit)
+FirebaseAnalytics-framework in Pods, depends on:
+FirebaseCore-framework in Pods (explicit)
+FirebaseInstallations-framework in Pods (explicit)
+GoogleAppMeasurement-framework in Pods (explicit)
+GoogleUtilities-framework in Pods (explicit)
+nanopb-framework in Pods (explicit)
+GTMSessionFetcher in Pods
+FirebaseAuth in Pods, depends on:
+FirebaseCore-framework in Pods (explicit)
+GTMSessionFetcher in Pods (explicit)
+GoogleUtilities-framework in Pods (explicit)
+Firebase-Analytics-Auth-Core-CoreOnly in Pods, depends on:
+FirebaseAnalytics-framework in Pods (explicit)
+FirebaseAuth in Pods (explicit)
+FirebaseCore-framework in Pods (explicit)
+Flutter in Pods
+firebase_core in Pods, depends on:
+Firebase-Analytics-Auth-Core-CoreOnly in Pods (explicit)
+Flutter in Pods (explicit)
+firebase_auth in Pods, depends on:
+Firebase-Analytics-Auth-Core-CoreOnly in Pods (explicit)
+Flutter in Pods (explicit)
+firebase_core in Pods (explicit)
+Pods-Runner in Pods, depends on:
+Firebase-Analytics-Auth-Core-CoreOnly in Pods (explicit)
+FirebaseAnalytics-framework in Pods (explicit)
+FirebaseAuth in Pods (explicit)
+FirebaseCore-framework in Pods (explicit)
+FirebaseCoreDiagnostics-framework in Pods (explicit)
+FirebaseInstallations-framework in Pods (explicit)
+Flutter in Pods (explicit)
+GTMSessionFetcher in Pods (explicit)
+GoogleAppMeasurement-framework in Pods (explicit)
+GoogleDataTransport-framework in Pods (explicit)
+GoogleUtilities-framework in Pods (explicit)
+PromisesObjC-framework in Pods (explicit)
+firebase_auth in Pods (explicit)
+firebase_core in Pods (explicit)
+nanopb-framework in Pods (explicit)
+Runner in Runner, depends on:
+Pods-Runner in Pods (implicit dependency via file 'Pods_Runner.framework' in build phase 'Link Binary'
+PromisesObjC-framework in Pods (implicit dependency via options '-framework FBLPromises' in build setting 'OTHER_LDFLAGS'
+FirebaseAuth in Pods (implicit dependency via options '-framework FirebaseAuth' in build setting 'OTHER_LDFLAGS'
+FirebaseCore-framework in Pods (implicit dependency via options '-framework FirebaseCore' in build setting 'OTHER_LDFLAGS'
+FirebaseCoreDiagnostics-framework in Pods (implicit dependency via options '-framework FirebaseCoreDiagnostics' in build setting 'OTHER_LDFLAGS'
+FirebaseInstallations-framework in Pods (implicit dependency via options '-framework FirebaseInstallations' in build setting 'OTHER_LDFLAGS'
+GTMSessionFetcher in Pods (implicit dependency via options '-framework GTMSessionFetcher' in build setting 'OTHER_LDFLAGS'
+GoogleDataTransport-framework in Pods (implicit dependency via options '-framework GoogleDataTransport' in build setting 'OTHER_LDFLAGS'
+GoogleUtilities-framework in Pods (implicit dependency via options '-framework GoogleUtilities' in build setting 'OTHER_LDFLAGS'
+firebase_auth in Pods (implicit dependency via options '-framework firebase_auth' in build setting 'OTHER_LDFLAGS'
+firebase_core in Pods (implicit dependency via options '-framework firebase_core' in build setting 'OTHER_LDFLAGS'
+nanopb-framework in Pods (implicit dependency via options '-framework nanopb' in build setting 'OTHER_LDFLAGS'
