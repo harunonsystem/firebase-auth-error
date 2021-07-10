@@ -12,14 +12,15 @@ class LoginPage extends StatelessWidget {
       UserCredential userCredential = await auth.signInWithEmailAndPassword(
           email: email, password: password);
       print('succeed');
-      if (userCredential.user! == null) {
-        result = FirebaseAuthResultStatus.Undefined;
-      } else {
+      // ignore: unnecessary_null_comparison
+      if (userCredential.user! != null) {
         result = FirebaseAuthResultStatus.Successful;
+      } else {
+        result = FirebaseAuthResultStatus.Undefined;
       }
-    } catch (e) {
-      // result = FirebaseAuthExceptionHandler.handleException(e);
-      result = FirebaseAuthResultStatus.Undefined;
+    } on FirebaseAuthException catch (e) {
+      print(e.code);
+      result = FirebaseAuthExceptionHandler.handleException(e);
     }
     return result;
   }
@@ -74,16 +75,17 @@ class LoginPage extends StatelessWidget {
           Padding(
             padding: const EdgeInsets.all(8.0),
             child: Form(
+                key: _formPWKey,
                 child: TextFormField(
-              controller: _password,
-              obscureText: true,
-              decoration: InputDecoration(
-                labelText: 'password',
-                border: OutlineInputBorder(
-                    borderRadius: BorderRadius.circular(8.0)),
-                hintText: 'password',
-              ),
-            )),
+                  controller: _password,
+                  obscureText: true,
+                  decoration: InputDecoration(
+                    labelText: 'password',
+                    border: OutlineInputBorder(
+                        borderRadius: BorderRadius.circular(8.0)),
+                    hintText: 'password',
+                  ),
+                )),
           ),
           TextButton(
             style: TextButton.styleFrom(
@@ -96,10 +98,13 @@ class LoginPage extends StatelessWidget {
             ),
             onPressed: () async {
               _formKey.currentState!.validate();
+              _formPWKey.currentState!.validate();
+
               final FirebaseAuthResultStatus signInResult =
                   await signInEmail(_email.text, _password.text);
               if (signInResult != FirebaseAuthResultStatus.Successful) {
-                final errorMessage = exceptionMessage(signInResult);
+                final errorMessage =
+                    FirebaseAuthExceptionHandler.exceptionMessage(signInResult);
 
                 _showErrorDialog(context, errorMessage);
               } else {
