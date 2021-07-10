@@ -35,14 +35,14 @@ dependencies: \
   /Users/harunon/flutter/.pub-cache/hosted/pub.dartlang.org/firebase_core-1.3.0/ios/Classes/FLTFirebaseCorePlugin.h \
   /Users/harunon/Projects/app/ios/Pods/Target\ Support\ Files/firebase_core/firebase_core-umbrella.h \
   /Users/harunon/Projects/app/ios/Pods/Headers/Public/Firebase/Firebase.h \
-  /Users/harunon/Projects/app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/FirebaseAnalytics/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h \
-  /Users/harunon/Projects/app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/FirebaseAnalytics/FirebaseAnalytics.framework/Modules/module.modulemap \
-  /Users/harunon/Projects/app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/FirebaseAnalytics/FirebaseAnalytics.framework/Headers/FIRAnalytics+Consent.h \
-  /Users/harunon/Projects/app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/FirebaseAnalytics/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h \
-  /Users/harunon/Projects/app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/FirebaseAnalytics/FirebaseAnalytics.framework/Headers/FIRParameterNames.h \
-  /Users/harunon/Projects/app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/FirebaseAnalytics/FirebaseAnalytics.framework/Headers/FIREventNames.h \
-  /Users/harunon/Projects/app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/FirebaseAnalytics/FirebaseAnalytics.framework/Headers/FIRAnalytics.h \
-  /Users/harunon/Projects/app/build/ios/Debug-iphonesimulator/XCFrameworkIntermediates/FirebaseAnalytics/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h \
+  /Users/harunon/Projects/app/ios/build/Debug-iphonesimulator/XCFrameworkIntermediates/FirebaseAnalytics/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h \
+  /Users/harunon/Projects/app/ios/build/Debug-iphonesimulator/XCFrameworkIntermediates/FirebaseAnalytics/FirebaseAnalytics.framework/Modules/module.modulemap \
+  /Users/harunon/Projects/app/ios/build/Debug-iphonesimulator/XCFrameworkIntermediates/FirebaseAnalytics/FirebaseAnalytics.framework/Headers/FIRAnalytics+Consent.h \
+  /Users/harunon/Projects/app/ios/build/Debug-iphonesimulator/XCFrameworkIntermediates/FirebaseAnalytics/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h \
+  /Users/harunon/Projects/app/ios/build/Debug-iphonesimulator/XCFrameworkIntermediates/FirebaseAnalytics/FirebaseAnalytics.framework/Headers/FIRParameterNames.h \
+  /Users/harunon/Projects/app/ios/build/Debug-iphonesimulator/XCFrameworkIntermediates/FirebaseAnalytics/FirebaseAnalytics.framework/Headers/FIREventNames.h \
+  /Users/harunon/Projects/app/ios/build/Debug-iphonesimulator/XCFrameworkIntermediates/FirebaseAnalytics/FirebaseAnalytics.framework/Headers/FIRAnalytics.h \
+  /Users/harunon/Projects/app/ios/build/Debug-iphonesimulator/XCFrameworkIntermediates/FirebaseAnalytics/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h \
   /Users/harunon/Projects/app/ios/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FirebaseAuth.h \
   /Users/harunon/Projects/app/ios/build/Pods.build/Debug-iphonesimulator/FirebaseAuth.build/module.modulemap \
   /Users/harunon/Projects/app/ios/Pods/FirebaseAuth/FirebaseAuth/Sources/Public/FirebaseAuth/FIRPhoneMultiFactorInfo.h \
